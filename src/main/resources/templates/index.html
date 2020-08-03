@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link href="/images/javascript.png" rel="shortcut icon" type="image/x-icon"/>
+    <title>LearnJS</title>
+</head>
+<body>
+<div class="demo">
+    <h2 style="text-align: center;">JavaScript</h2>
+    <button class="btn" id="btn" onclick="textDance()">Click me!</button>
+    <p id="demo">DANCE TEXT</p>
+    <script>
+        const $el = $("#demo");
+        $el.html($el.text() + ("").fontsize("125px").fontcolor("white"));
+    </script>
+</div>
+
+</body>
+</html>
